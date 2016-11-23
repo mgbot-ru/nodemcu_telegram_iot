@@ -771,6 +771,20 @@ void Telegram_ExecMessages()
         bot.sendMessage(bot.message[i][4], "Меня залили, давай вытирай подоконник!", "");
       }
     }
+    else if ((str1 == "WHERE ARE YOU") || (str1 == "WHERE R U") || (str1 == "WHERE ARE YOU?") || (str1 == "WHERE R U?"))
+    {
+      bot.sendMessage(bot.message[i][4], "Привет, я в Ташкенте на M2M КОНФЕРЕНЦИЯ UCELL \"Технологии будущего\"", "");
+    }
+
+    else if ((str1 == "YOU LIKE IT") || (str1 == "U LIKE IT") || (str1 == "YOU LIKE IT?") || (str1 == "U LIKE IT?"))
+    {
+      bot.sendMessage(bot.message[i][4], "Мне нравится Ташкент :)", "");
+    }
+
+    else if ((str1 == "WHAT IS IOT") || (str1 == "IOT") || (str1 == "WHAT IS IOT?") || (str1 == "IOT?"))
+    {
+      bot.sendMessage(bot.message[i][4], "Интернет вещей — концепция  вычислительной сети физических предметов («вещей»), оснащённых встроенными технологиями для взаимодействия друг с другом или с внешней средой, рассматривающая организацию таких сетей как явление, способное перестроить экономические и общественные процессы, исключающее из части действий и операций необходимость участия человека", "");
+    }
     else if ((str1 == ":(") || (str1 == ":-("))
     {
       smile_type = 1;
